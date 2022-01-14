@@ -1,0 +1,23 @@
+type Mutation {
+    addToWatchList(symbol: String!): [String]
+    removeFromWatchList(symbol: String!): [String]
+}
+
+type Query {
+    allTickerValues: [Ticker]
+    allMyTickerValues: [Ticker]
+    thisTickerValue(symbol: String!): [Ticker]
+    watchList: [String]
+}
+
+# type Subscription {
+#    liveFeed(symbol: String!) : [Ticker]
+# }
+
+type Ticker {
+    symbol: String
+    priceChange: String
+    priceChangePercent: String
+    volume: String
+}
+
