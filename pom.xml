@@ -22,7 +22,7 @@
 				<groupId>com.netflix.graphql.dgs</groupId>
 				<artifactId>graphql-dgs-platform-dependencies</artifactId>
 				<!-- The DGS BOM/platform dependency. This is the only place you set version of DGS -->
-				<version>4.1.0</version>
+				<version>4.9.16</version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
@@ -33,7 +33,7 @@
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
-			<version>1.18.20</version>
+			<version>1.18.24</version>
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
