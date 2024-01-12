@@ -69,3 +69,4 @@ mutation ($symbol: String!) {
   removeFromWatchList(symbol: $symbol)
 }
 ```
+end..
